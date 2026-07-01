@@ -1,90 +1,107 @@
-# PromptPatterns
+# PromptPatterns: Prompt Engineering Handbook
 
-A structured, open-source library of prompt engineering patterns, anti-patterns, and real-world examples for working with large language models.
-
----
-
-## 📌 Overview
-
-PromptPatterns is a practical system for designing effective prompts for AI models such as ChatGPT, Claude, Gemini, and others.
-
-Instead of random prompts, this repository focuses on:
-- Reusable prompt engineering patterns
-- Common failure cases (anti-patterns)
-- Real-world use cases
-- Standardized prompt structure
-- Production-style prompt design
+A structured handbook for designing effective prompts and AI behavior systems for large language models such as ChatGPT, Claude, Gemini, and others.
 
 ---
 
-## 🧠 Why this exists
+## 📖 Overview
 
-Most AI outputs are inconsistent because prompts are unclear or poorly structured.
+PromptPatterns is a practical reference system for building reliable, structured, and reusable AI prompts.
 
-This project helps you:
-- Improve reliability of AI responses
-- Design structured prompts for real applications
-- Avoid common prompting mistakes
-- Learn how production AI prompts are built
+It focuses on moving beyond trial-and-error prompting into **engineering-style prompt design**.
 
 ---
 
-## 📂 Repository Structure
+## 🧠 Core Idea
 
-- `patterns/` → Core prompt engineering patterns
-- `anti-patterns/` → Common mistakes and failures
-- `examples/` → Real-world prompt use cases
-- `docs/` → Prompt engineering standards and guidelines
+Good AI outputs are not accidental.
+
+They come from:
+- Clear instructions
+- Structured reasoning patterns
+- Controlled output formats
+- Iterative refinement systems
+
+This repository documents those systems.
 
 ---
 
-## 🚀 What’s inside
+## 📚 Contents
 
-### Patterns
-Reusable techniques like:
+### 1. Prompt Foundations
 - Role Prompting
-- Chain-of-Thought
-- Critic–Refine
+- Few-Shot Prompting
 
-### Anti-Patterns
-Common mistakes such as:
-- Vague instructions
-- Missing constraints
-- Poor structure
+### 2. Reasoning Patterns
+- Chain-of-Thought Prompting
+- Self-Consistency Prompting
+- Tree-of-Thought Prompting
 
-### Examples
-Real-world prompts used in:
-- Customer support
-- Content generation
-- AI assistants
+### 3. Quality Improvement Systems
+- Critic–Refine Pattern
+- Agent-Style Prompting
 
-### Docs
-Engineering standards for:
-- Prompt structure
-- Formatting rules
-- Best practices
+### 4. Anti-Patterns
+- Vague Instructions
+
+### 5. Engineering Standards
+- Prompt Structure & Formatting Standards
+
+### 6. Real-World Examples
+- Customer Support Prompt System
 
 ---
 
-## 🚀 Getting Started
+## 🚀 How to Use This Repository
 
-If you're new here:
+Start in this order:
 
 1. Read `docs/prompt-structure-standards.md`
-2. Start with `patterns/role-prompting.md`
-3. Review `anti-patterns/vague-instructions.md`
-4. Explore `examples/customer-support.md`
+2. Learn `patterns/role-prompting.md`
+3. Study `patterns/few-shot-prompting.md`
+4. Explore reasoning patterns (CoT, ToT, etc.)
+5. Review `anti-patterns/`
+6. Study `examples/`
 
 ---
 
-## 🤝 Contributing
+## 🔧 What this teaches you
 
-Contributions are welcome.
+By using this repository, you will learn how to:
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+- Design reliable AI prompts
+- Control AI output structure
+- Reduce hallucinations and randomness
+- Build multi-step reasoning systems
+- Think like an AI system designer
+
+---
+
+## 🧱 Repository Structure
+
+- `patterns/` → Prompt engineering techniques
+- `anti-patterns/` → Common failure cases
+- `examples/` → Real-world applications
+- `docs/` → Engineering standards and rules
+
+---
+
+## 🎯 Who this is for
+
+- AI engineers
+- Prompt engineers
+- Developers building LLM apps
+- Researchers working with language models
+- Anyone designing AI workflows
 
 ---
 
 ## 📜 License
 
-This project is licensed under the MIT License.
+MIT License — free to use, modify, and distribute.
+
+---
+
+## 🤝 Contributions
+
+See `CONTRIBUTING.md` for guidelines.
