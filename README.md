@@ -1,28 +1,90 @@
 # PromptPatterns
 
-> A practical, open-source catalog of prompt engineering patterns with real-world examples.
+A structured, open-source library of prompt engineering patterns, anti-patterns, and real-world examples for working with large language models.
 
-## 🎯 Mission
+---
 
-PromptPatterns is an educational project that documents reusable prompt engineering patterns for modern large language models (LLMs) such as ChatGPT, Claude, Gemini, Llama, Mistral, and others.
+## 📌 Overview
 
-The goal is to help developers, researchers, and AI enthusiasts write more reliable, maintainable, and effective prompts.
+PromptPatterns is a practical system for designing effective prompts for AI models such as ChatGPT, Claude, Gemini, and others.
 
-## 🚧 Project Status
+Instead of random prompts, this repository focuses on:
+- Reusable prompt engineering patterns
+- Common failure cases (anti-patterns)
+- Real-world use cases
+- Standardized prompt structure
+- Production-style prompt design
 
-This project is currently under active development.
+---
 
-## Planned Features
+## 🧠 Why this exists
 
-- Prompt pattern library
-- Real-world examples
-- Before & after comparisons
+Most AI outputs are inconsistent because prompts are unclear or poorly structured.
+
+This project helps you:
+- Improve reliability of AI responses
+- Design structured prompts for real applications
+- Avoid common prompting mistakes
+- Learn how production AI prompts are built
+
+---
+
+## 📂 Repository Structure
+
+- `patterns/` → Core prompt engineering patterns
+- `anti-patterns/` → Common mistakes and failures
+- `examples/` → Real-world prompt use cases
+- `docs/` → Prompt engineering standards and guidelines
+
+---
+
+## 🚀 What’s inside
+
+### Patterns
+Reusable techniques like:
+- Role Prompting
+- Chain-of-Thought
+- Critic–Refine
+
+### Anti-Patterns
+Common mistakes such as:
+- Vague instructions
+- Missing constraints
+- Poor structure
+
+### Examples
+Real-world prompts used in:
+- Customer support
+- Content generation
+- AI assistants
+
+### Docs
+Engineering standards for:
+- Prompt structure
+- Formatting rules
 - Best practices
-- Anti-patterns
-- AI model compatibility
-- Community contributions
-- Interactive documentation
 
-## License
+---
 
-MIT
+## 🚀 Getting Started
+
+If you're new here:
+
+1. Read `docs/prompt-structure-standards.md`
+2. Start with `patterns/role-prompting.md`
+3. Review `anti-patterns/vague-instructions.md`
+4. Explore `examples/customer-support.md`
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
